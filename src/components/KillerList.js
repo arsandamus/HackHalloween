@@ -1,4 +1,5 @@
 import React from 'react';
+import Killer from './Killer'
 
 
 
@@ -30,7 +31,7 @@ const killer = [
 
     {
         id:3,
-        image:'https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&ved=2ahUKEwjbpe_htcTlAhUBdxoKHU69APUQjRx6BAgBEAQ&url=%2Furl%3Fsa%3Di%26rct%3Dj%26q%3D%26esrc%3Ds%26source%3Dimages%26cd%3D%26ved%3D%26url%3Dhttps%253A%252F%252Fpeople.bfmtv.com%252Fcinema%252Fle-joker-aura-lui-aussi-droit-a-un-film-sur-ses-origines-1240859.html%26psig%3DAOvVaw1VZyIPtoHrsGeP4UmD7flS%26ust%3D1572539862340019&psig=AOvVaw1VZyIPtoHrsGeP4UmD7flS&ust=1572539862340019',
+        image:'https://dailygeekshow.com/wp-content/uploads/2019/06/UNE-the-joker.jpg',
         name:'Joker',
         type:'humain',
         rating:4.7,
@@ -56,7 +57,7 @@ const killer = [
 
     {
         id:5,
-        image:"https://www.trickortreatstudios.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/s/e/seed-6.png",
+        image:"https://fotos02.laopinioncoruna.es/mmp/2019/01/30/1024x341/chuckyserie.jpg",
         name:'Chucky',
         type:'monstre',
         rating:1.2,
@@ -69,7 +70,7 @@ const killer = [
 
     {
         id:6,
-        image:'https://img.over-blog-kiwi.com/1/18/91/51/20140815/ob_907b65_freddy.jpg',
+        image:'https://static.hitek.fr/img/actualite/2015/08/07/fb_freddy-krueger.jpg',
         name:'Freddy Krueger',
         type:'monstre',
         rating:4,
@@ -121,7 +122,7 @@ const killer = [
 
     {
         id:10,
-        image:"https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&ved=2ahUKEwjmq__tvMTlAhWO2BQKHeACDQ8QjRx6BAgBEAQ&url=http%3A%2F%2Fwww.allocine.fr%2Fvideo%2Fplayer_gen_cmedia%3D19431774%26cfilm%3D194194.html&psig=AOvVaw1LC0p5Ka4JYkZ2bP60UBwX&ust=1572541451746753",
+        image:"http://images6.fanpop.com/image/photos/40800000/Carrie-2013-horror-movies-40812851-1280-1024.jpg",
         name:'Carrie',
         type:'humain',
         rating:0.1,
@@ -137,8 +138,8 @@ const killer = [
 const KillerList = () => (
     <div>
         {killer.map(killerItem =>(
-            <Killer image={killerItem.image} name={killerItem.name} rating={killerItem.rating} description={killerItem.description} quote={killerItem.quote} price={killerItem.pri
-        ))
+            <Killer image={killerItem.image} name={killerItem.name} rating={killerItem.rating} description={killerItem.description} quote={killerItem.quote} price={killerItem.price}/>
+        ))}
     </div>
 )
 
