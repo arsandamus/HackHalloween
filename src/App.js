@@ -6,8 +6,8 @@ import Header from './components/Header'
 const App = () => {
   return (
     <div className="App">
-      <KillerList />
       <Header />
+      <KillerList />
     </div>
   );
 }
