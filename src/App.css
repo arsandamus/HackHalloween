@@ -1,5 +1,11 @@
+html {
+  background-color:black;
+}
+
+
 .App {
   text-align: center;
+  
 }
 
 .App-logo {
@@ -19,4 +25,10 @@
 
 .App-link {
   color: #09d3ac;
+}
+
+
+.killerContainer {
+  background-color:rgb(51, 45, 45);
+  margin: 200px;
 }

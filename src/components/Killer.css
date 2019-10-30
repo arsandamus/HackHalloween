@@ -1,7 +1,9 @@
 .killers {
     display:flex;
     flex-direction: row;
-    margin: 200px;
+    color: white;
+    border: 1px solid black;
+
 }
 .avatar {
     display: flex;
