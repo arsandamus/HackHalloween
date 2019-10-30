@@ -137,7 +137,7 @@ const killer = [
 const KillerList = () => (
     <div>
         {killer.map(killerItem =>(
-            <Killer image={killerItem.image} name={killerItem.name} rating={killerItem.rating} description={killerItem.description} quote={killerItem.quote} price={killerItem.pri
+            <Killer image={killerItem.image} name={killerItem.name} rating={killerItem.rating} description={killerItem.description} quote={killerItem.quote} price={kill
         ))
     </div>
 )
