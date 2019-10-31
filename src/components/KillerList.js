@@ -11,7 +11,7 @@ const killer = [
         type: 'humain',
         rating:5,
         price:9000,
-        task:'tuer',
+        task:['tuer vos ennemis', 'kidnapper des gens'],
         location:'Grigny',
         description:'Ses yeux vous mentiront puis ils vous détruiront.Ils vous priveront de votre innocence, de votre fierté, peut-être même de votre âme.',
         quote:'...'
@@ -23,7 +23,7 @@ const killer = [
         type:'humain',
         rating: 4.5,
         price:7500,
-        task:'torturer',
+        task:['torturer vos proches', 'coiffure'],
         location:'Saint-Denis',
         description:'Le sadisme de cet individu vous laissera pantois.',
         quote:'Jouons à un jeu.'
@@ -36,7 +36,7 @@ const killer = [
         type:'humain',
         rating:4.7,
         price:5800,
-        task:'kidnapper',
+        task:['kidnapper des gens','garder vos enfants'],
         location:'Coulommier',
         description:'Rapide, efficace et sans trace.',
         quote:'Toi tu refuses de me tuer par principe. Et moi, je refuse de te tuer parce que tu es tellement amusant.'
@@ -49,7 +49,7 @@ const killer = [
         type:'humain',
         rating:3.9,
         price:900,
-        task:'harceler',
+        task:['harceler quelqu\'un', 'sortir le chien'],
         location:'Paris',
         description:'Il vous suivra jusque dans votre lit.',
         quote:'Bouh'
@@ -62,7 +62,7 @@ const killer = [
         type:'monstre',
         rating:1.2,
         price:63,
-        task:'coiffer',
+        task:['coiffure', 'faire vos courses'],
         location:'Boulogne-Billancourt',
         description:'Il se coupera les cheveux en quatre pour vous.',
         quote:'Prends ça dans ta gue**, grognasse.'
@@ -75,7 +75,7 @@ const killer = [
         type:'monstre',
         rating:4,
         price:12,
-        task:'garde d\'enfant',
+        task:['garder vos enfants','faire votre ménage'],
         location:'Versailles',
         description:'Vos enfants feront de beaux rêves avec lui.',
         quote:'Tu peux pas me faire de mal, tu es dans mon monde.'
@@ -88,7 +88,7 @@ const killer = [
         type:'monstre',
         rating:0.5,
         price:10,
-        task:'faire le ménage',
+        task:['faire votre ménage','chercher vos enfants'],
         location:'Arcueil',
         description:'Sa chevelure-serpillère fera briller vos sol',
         quote:'Yorushiku onegai shimasu'
@@ -101,7 +101,7 @@ const killer = [
         type:'humain',
         rating:3.6,
         price:10,
-        task:'faire les courses',
+        task:['faire vos courses','tuer vos ennemis'],
         location:'Paris',
         description:'Sa carrure puissante lui permet de faire tout votre shopping, sans limite.',
         quote:'silence...'
@@ -114,7 +114,7 @@ const killer = [
         type:'monstre',
         rating:4.8,
         price:9,
-        task:'aller chercher les enfants',
+        task:['chercher vos enfants','faire vos courses'],
         location:'Marne-La-Vallée',
         description:'Il les trouvera tous.',
         quote:'Il flotte...Tu flotteras aussi.'
@@ -127,7 +127,7 @@ const killer = [
         type:'humain',
         rating:0.1,
         price:8,
-        task:'sortir le chien',
+        task:['sortir le chien','torturer vos proches'],
         location:'Fontainebleau',
         description:"Elle...a essayé.",
         quote:"Ils me detestent tous. Jamais ils ne se fatiguent de me tourmenter."
